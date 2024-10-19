@@ -22,9 +22,8 @@ const MainPage = () => {
 
     return (
         <div className="relative overflow-hidden w-screen h-screen">
-            {/* Display only one image at a time */}
             <div className="w-full h-full">
-                <div className="relative w-full h-full flex items-center justify-center">
+                <div className="relative w-screen h-screen  flex items-center justify-center">
                     <img
                         src={images[currentIndex]}
                         alt={`img${currentIndex + 1}`}
@@ -36,7 +35,6 @@ const MainPage = () => {
                 </div>
             </div>
 
-            {/* Pagination Controls */}
             <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2">
                 {images.map((_, index) => (
                     <button

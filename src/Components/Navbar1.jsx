@@ -6,7 +6,7 @@ import LowerLinks from '../Links/LowerLinks'
 
 const Navbar1 = () => {
   return (
-    <div className='w-screen h-28 flex flex-row p-2 items-center'>
+    <div className='w-screen h-28 flex flex-row p-2 items-center z-50 fixed bg-white '>
       <div>
         <img className='w-48 h-16' src={logo} alt="" />
       </div>
