@@ -4,12 +4,10 @@ import shivalik_college from '../../Images/shivalik_college.png';
 const Page4 = () => {
   return (
     <div className='flex w-full h-half'>
-      {/* Main container with background image */}
       <div
         className='w-full flex justify-end items-center text-white bg-cover bg-center p-16'
         style={{ backgroundImage: `url(${shivalik_college})` }}
       >
-        {/* Div containing the text on the right side */}
         <div className='w-[70%]  p-6'>
           <h1 className='font-bold text-5xl mb-4 text-start'>SHIVALIK COLLEGE DEHRADUN</h1>
           <h3 className='font-bold text-2xl mb-4 text-start'>A Unique learning environment</h3>

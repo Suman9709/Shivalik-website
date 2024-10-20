@@ -11,8 +11,6 @@ const UpperLinks = () => {
                     <li className="font-bold">
                         <a style={{ color: '#98012f' }} href="#news-events">ABOUT US</a>
                     </li>
-
-                    {/* Quick Links with Dropdown */}
                     <li className="relative font-bold">
                         <a style={{ color: '#98012f' }} href="#quick-links">ACADEMICS</a>
                         <button
@@ -28,7 +26,6 @@ const UpperLinks = () => {
                                 <path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
                             </svg>
                         </button>
-                        {/* Dropdown for Quick Links */}
                         {hoverQuickLinks && (
                             <ul
                                 className="absolute bg-white border mt-1 flex flex-col p-2 items-start font-medium "
@@ -65,8 +62,6 @@ const UpperLinks = () => {
                             </ul>
                         )}
                     </li>
-
-                    {/* Admission Enquiry */}
                     <li className="font-bold">
                         <a style={{ color: '#98012f' }} href="#admission-enquiry">PLACEMENTS CELL</a>
                     </li>
