@@ -7,7 +7,7 @@ import video_2 from '../../Images/video-2.png'
 const Page5 = () => {
   return (
     <div className=" flex flex-col mt-8 h-screen">
-        <div className='flex justify-center items-center bg-cover bg-center h-[60vh]' 
+        <div className='flex justify-center items-center bg-cover bg-center h-[70vh]' 
             style={{ backgroundImage: `url(${slideimg})` }}>
             
             <div className="absolute p-8 flex justify-center items-center">
