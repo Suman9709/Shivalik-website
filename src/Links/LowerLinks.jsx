@@ -151,7 +151,7 @@ const UpperLinks = () => {
                 </ul>
 
                 <div className=' bg-yellow-400 border-1 rounded-lg p-2 mt-1 px-5 text-lg flex items-center justify-center font-bold '>
-                    <button  style={{ color: '#98012f' }}>Apply Now</button>
+                    <button style={{ color: '#98012f' }}>Apply Now</button>
                 </div>
             </div>
         </div>
